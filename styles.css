@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    -webkit-app-region: drag;
+    border-radius: 20-px;
+    margin: 0;
+    background: transparent;
+
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 13.375rem;
+    padding: 1rem 1.0625rem;
+
+    background-image: 
+}
