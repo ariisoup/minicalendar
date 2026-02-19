@@ -14,7 +14,7 @@ body {
 
 }
 
-.app {
+.app{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,5 +23,9 @@ body {
     width: 13.375rem;
     padding: 1rem 1.0625rem;
 
-    background-image: 
+    background-image: url("assets/outer_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
 }
