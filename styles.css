@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    width: 13.375rem;
+    width: 13rem;
     padding: 1rem 1.0625rem;
 
     background-image: url("assets/outer_background.png");
@@ -29,3 +29,71 @@ body {
     background-position: center;
     opacity: 0.8;
 }
+
+button,
+input,
+textarea,
+select {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    width: 157px;
+    aspect-ratio: 157/27;
+    padding: 0.25rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6.25rem;
+    border: 1px solid #BFD3DB;
+    background: rgba(136, 183, 201, 1);
+
+    color: var(--white, #fff);
+
+    /* style text */
+    font-family: rainyhearts;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* main calendar styling */
+#calendar {
+    display: flex;
+    width: 11.25rem;
+    height: 10.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    background-image: url(assets/inner_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+#day {
+    color: #fff;
+    text-align: center;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #BFD3DB;
+    font-family: rainyhearts;
+    font-size: 8.5rem;
+    font-size: 8.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.45rem;
+
+    display: flex;
+    width: 11.25rem;
+    height: 4.4375rem;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
