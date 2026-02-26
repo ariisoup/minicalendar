@@ -3,8 +3,8 @@ const { app, BrowserWindow } = require("electron");
 function createWindow() {
     const win = new BrowserWindow({
         title: "Mini calendar",
-        width: 214,
-        height: 228,
+        width: 200,
+        height: 200,
         resizable: false,
         maximizable: false,
         frame: false,

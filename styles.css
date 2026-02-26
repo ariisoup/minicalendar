@@ -27,6 +27,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
+    width: 100vw;
     opacity: 0.8;
 }
 
@@ -71,7 +73,7 @@ select {
     gap: 1rem;
 
     background-image: url(assets/inner_background.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     }
@@ -96,4 +98,9 @@ select {
     justify-content: center;
 
 }
+
+#month {
+    color: #fff;
+    text-align: center;
+]
 
